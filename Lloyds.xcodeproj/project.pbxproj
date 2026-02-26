@@ -6,12 +6,16 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1825FE9F2F56E3B90020F16A /* Wormholy in Frameworks */ = {isa = PBXBuildFile; productRef = 1825FE9E2F56E3B90020F16A /* Wormholy */; settings = {ATTRIBUTES = (Required, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		18303CE22EFACE4900618D91 /* Lloyds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lloyds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		18303CE42EFACE4900618D91 /* Lloyds */ = {
+		18303E182F01A3A300618D91 /* Lloyds */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Lloyds;
 			sourceTree = "<group>";
@@ -23,16 +27,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1825FE9F2F56E3B90020F16A /* Wormholy in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1825FEA02F56E42D0020F16A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		18303CD92EFACE4900618D91 = {
 			isa = PBXGroup;
 			children = (
-				18303CE42EFACE4900618D91 /* Lloyds */,
+				18303E182F01A3A300618D91 /* Lloyds */,
+				1825FEA02F56E42D0020F16A /* Frameworks */,
 				18303CE32EFACE4900618D91 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,10 +74,11 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				18303CE42EFACE4900618D91 /* Lloyds */,
+				18303E182F01A3A300618D91 /* Lloyds */,
 			);
 			name = Lloyds;
 			packageProductDependencies = (
+				1825FE9E2F56E3B90020F16A /* Wormholy */,
 			);
 			productName = Lloyds;
 			productReference = 18303CE22EFACE4900618D91 /* Lloyds.app */;
@@ -94,6 +108,9 @@
 			);
 			mainGroup = 18303CD92EFACE4900618D91;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				1825FE9D2F56E3B90020F16A /* XCRemoteSwiftPackageReference "Wormholy" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 18303CE32EFACE4900618D91 /* Products */;
 			projectDirPath = "";
@@ -256,25 +273,34 @@
 				DEVELOPMENT_TEAM = QSV6NR5J4B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Deltafour® EHS One";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera to upload after observation images.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app uses the camera to upload after observation images.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Deltafour.Lloyds;
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = co.deltafour.ehsone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -288,25 +314,34 @@
 				DEVELOPMENT_TEAM = QSV6NR5J4B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Deltafour® EHS One";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera to upload after observation images.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app uses the camera to upload after observation images.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Deltafour.Lloyds;
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = co.deltafour.ehsone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -332,6 +367,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1825FE9D2F56E3B90020F16A /* XCRemoteSwiftPackageReference "Wormholy" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pmusolino/Wormholy";
+			requirement = {
+				kind = exactVersion;
+				version = 2.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1825FE9E2F56E3B90020F16A /* Wormholy */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1825FE9D2F56E3B90020F16A /* XCRemoteSwiftPackageReference "Wormholy" */;
+			productName = Wormholy;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 18303CDA2EFACE4900618D91 /* Project object */;
 }

@@ -1,0 +1,15 @@
+{
+  "originHash" : "c4b3f5804c3941aa9fc8d70b33868f8dcd7351ed4555a1be04d7d75c100ad560",
+  "pins" : [
+    {
+      "identity" : "wormholy",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pmusolino/Wormholy",
+      "state" : {
+        "revision" : "725597a8922bd166eae9940eae64d0964087d75c",
+        "version" : "2.3.0"
+      }
+    }
+  ],
+  "version" : 3
+}
