@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		185A47112FA75AB40083555E /* Lloyds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lloyds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		185A48952FA75ECC0083555E /* Lloyds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lloyds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		185A47132FA75AB40083555E /* Lloyds */ = {
+		185A48972FA75ECC0083555E /* Lloyds */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Lloyds;
 			sourceTree = "<group>";
@@ -19,7 +19,7 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		185A470E2FA75AB40083555E /* Frameworks */ = {
+		185A48922FA75ECC0083555E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,18 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		185A47082FA75AB40083555E = {
+		185A488C2FA75ECC0083555E = {
 			isa = PBXGroup;
 			children = (
-				185A47132FA75AB40083555E /* Lloyds */,
-				185A47122FA75AB40083555E /* Products */,
+				185A48972FA75ECC0083555E /* Lloyds */,
+				185A48962FA75ECC0083555E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		185A47122FA75AB40083555E /* Products */ = {
+		185A48962FA75ECC0083555E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				185A47112FA75AB40083555E /* Lloyds.app */,
+				185A48952FA75ECC0083555E /* Lloyds.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		185A47102FA75AB40083555E /* Lloyds */ = {
+		185A48942FA75ECC0083555E /* Lloyds */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 185A471C2FA75AB60083555E /* Build configuration list for PBXNativeTarget "Lloyds" */;
+			buildConfigurationList = 185A48A02FA75ECD0083555E /* Build configuration list for PBXNativeTarget "Lloyds" */;
 			buildPhases = (
-				185A470D2FA75AB40083555E /* Sources */,
-				185A470E2FA75AB40083555E /* Frameworks */,
-				185A470F2FA75AB40083555E /* Resources */,
+				185A48912FA75ECC0083555E /* Sources */,
+				185A48922FA75ECC0083555E /* Frameworks */,
+				185A48932FA75ECC0083555E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				185A47132FA75AB40083555E /* Lloyds */,
+				185A48972FA75ECC0083555E /* Lloyds */,
 			);
 			name = Lloyds;
 			packageProductDependencies = (
 			);
 			productName = Lloyds;
-			productReference = 185A47112FA75AB40083555E /* Lloyds.app */;
+			productReference = 185A48952FA75ECC0083555E /* Lloyds.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		185A47092FA75AB40083555E /* Project object */ = {
+		185A488D2FA75ECC0083555E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2630;
 				LastUpgradeCheck = 2630;
 				TargetAttributes = {
-					185A47102FA75AB40083555E = {
+					185A48942FA75ECC0083555E = {
 						CreatedOnToolsVersion = 26.3;
 					};
 				};
 			};
-			buildConfigurationList = 185A470C2FA75AB40083555E /* Build configuration list for PBXProject "Lloyds" */;
+			buildConfigurationList = 185A48902FA75ECC0083555E /* Build configuration list for PBXProject "Lloyds" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 185A47082FA75AB40083555E;
+			mainGroup = 185A488C2FA75ECC0083555E;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 185A47122FA75AB40083555E /* Products */;
+			productRefGroup = 185A48962FA75ECC0083555E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				185A47102FA75AB40083555E /* Lloyds */,
+				185A48942FA75ECC0083555E /* Lloyds */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		185A470F2FA75AB40083555E /* Resources */ = {
+		185A48932FA75ECC0083555E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		185A470D2FA75AB40083555E /* Sources */ = {
+		185A48912FA75ECC0083555E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		185A471A2FA75AB60083555E /* Debug */ = {
+		185A489E2FA75ECD0083555E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -188,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		185A471B2FA75AB60083555E /* Release */ = {
+		185A489F2FA75ECD0083555E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -244,7 +244,7 @@
 			};
 			name = Release;
 		};
-		185A471D2FA75AB60083555E /* Debug */ = {
+		185A48A12FA75ECD0083555E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -275,7 +275,7 @@
 			};
 			name = Debug;
 		};
-		185A471E2FA75AB60083555E /* Release */ = {
+		185A48A22FA75ECD0083555E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -309,25 +309,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		185A470C2FA75AB40083555E /* Build configuration list for PBXProject "Lloyds" */ = {
+		185A48902FA75ECC0083555E /* Build configuration list for PBXProject "Lloyds" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				185A471A2FA75AB60083555E /* Debug */,
-				185A471B2FA75AB60083555E /* Release */,
+				185A489E2FA75ECD0083555E /* Debug */,
+				185A489F2FA75ECD0083555E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		185A471C2FA75AB60083555E /* Build configuration list for PBXNativeTarget "Lloyds" */ = {
+		185A48A02FA75ECD0083555E /* Build configuration list for PBXNativeTarget "Lloyds" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				185A471D2FA75AB60083555E /* Debug */,
-				185A471E2FA75AB60083555E /* Release */,
+				185A48A12FA75ECD0083555E /* Debug */,
+				185A48A22FA75ECD0083555E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 185A47092FA75AB40083555E /* Project object */;
+	rootObject = 185A488D2FA75ECC0083555E /* Project object */;
 }
