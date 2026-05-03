@@ -6,16 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		1825FE9F2F56E3B90020F16A /* Wormholy in Frameworks */ = {isa = PBXBuildFile; productRef = 1825FE9E2F56E3B90020F16A /* Wormholy */; settings = {ATTRIBUTES = (Required, ); }; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		18303CE22EFACE4900618D91 /* Lloyds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lloyds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		185A47112FA75AB40083555E /* Lloyds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lloyds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		18303E182F01A3A300618D91 /* Lloyds */ = {
+		185A47132FA75AB40083555E /* Lloyds */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Lloyds;
 			sourceTree = "<group>";
@@ -23,37 +19,28 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		18303CDF2EFACE4900618D91 /* Frameworks */ = {
+		185A470E2FA75AB40083555E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1825FE9F2F56E3B90020F16A /* Wormholy in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1825FEA02F56E42D0020F16A /* Frameworks */ = {
+		185A47082FA75AB40083555E = {
 			isa = PBXGroup;
 			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		18303CD92EFACE4900618D91 = {
-			isa = PBXGroup;
-			children = (
-				18303E182F01A3A300618D91 /* Lloyds */,
-				1825FEA02F56E42D0020F16A /* Frameworks */,
-				18303CE32EFACE4900618D91 /* Products */,
+				185A47132FA75AB40083555E /* Lloyds */,
+				185A47122FA75AB40083555E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		18303CE32EFACE4900618D91 /* Products */ = {
+		185A47122FA75AB40083555E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18303CE22EFACE4900618D91 /* Lloyds.app */,
+				185A47112FA75AB40083555E /* Lloyds.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,68 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		18303CE12EFACE4900618D91 /* Lloyds */ = {
+		185A47102FA75AB40083555E /* Lloyds */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18303CED2EFACE4B00618D91 /* Build configuration list for PBXNativeTarget "Lloyds" */;
+			buildConfigurationList = 185A471C2FA75AB60083555E /* Build configuration list for PBXNativeTarget "Lloyds" */;
 			buildPhases = (
-				18303CDE2EFACE4900618D91 /* Sources */,
-				18303CDF2EFACE4900618D91 /* Frameworks */,
-				18303CE02EFACE4900618D91 /* Resources */,
+				185A470D2FA75AB40083555E /* Sources */,
+				185A470E2FA75AB40083555E /* Frameworks */,
+				185A470F2FA75AB40083555E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				18303E182F01A3A300618D91 /* Lloyds */,
+				185A47132FA75AB40083555E /* Lloyds */,
 			);
 			name = Lloyds;
 			packageProductDependencies = (
-				1825FE9E2F56E3B90020F16A /* Wormholy */,
 			);
 			productName = Lloyds;
-			productReference = 18303CE22EFACE4900618D91 /* Lloyds.app */;
+			productReference = 185A47112FA75AB40083555E /* Lloyds.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		18303CDA2EFACE4900618D91 /* Project object */ = {
+		185A47092FA75AB40083555E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 2600;
-				LastUpgradeCheck = 2600;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
 				TargetAttributes = {
-					18303CE12EFACE4900618D91 = {
-						CreatedOnToolsVersion = 26.0.1;
+					185A47102FA75AB40083555E = {
+						CreatedOnToolsVersion = 26.3;
 					};
 				};
 			};
-			buildConfigurationList = 18303CDD2EFACE4900618D91 /* Build configuration list for PBXProject "Lloyds" */;
+			buildConfigurationList = 185A470C2FA75AB40083555E /* Build configuration list for PBXProject "Lloyds" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 18303CD92EFACE4900618D91;
+			mainGroup = 185A47082FA75AB40083555E;
 			minimizedProjectReferenceProxies = 1;
-			packageReferences = (
-				1825FE9D2F56E3B90020F16A /* XCRemoteSwiftPackageReference "Wormholy" */,
-			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 18303CE32EFACE4900618D91 /* Products */;
+			productRefGroup = 185A47122FA75AB40083555E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18303CE12EFACE4900618D91 /* Lloyds */,
+				185A47102FA75AB40083555E /* Lloyds */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		18303CE02EFACE4900618D91 /* Resources */ = {
+		185A470F2FA75AB40083555E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -132,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		18303CDE2EFACE4900618D91 /* Sources */ = {
+		185A470D2FA75AB40083555E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -142,7 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		18303CEB2EFACE4B00618D91 /* Debug */ = {
+		185A471A2FA75AB60083555E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -177,7 +160,6 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = QSV6NR5J4B;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -195,7 +177,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -206,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		18303CEC2EFACE4B00618D91 /* Release */ = {
+		185A471B2FA75AB60083555E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,7 +223,6 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = QSV6NR5J4B;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -253,7 +234,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -263,129 +244,90 @@
 			};
 			name = Release;
 		};
-		18303CEE2EFACE4B00618D91 /* Debug */ = {
+		185A471D2FA75AB60083555E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QSV6NR5J4B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Deltafour® EHS One";
-				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera to upload after observation images.";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app uses the camera to upload after observation images.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = co.deltafour.ehsone;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Deltafour.Lloyds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		18303CEF2EFACE4B00618D91 /* Release */ = {
+		185A471E2FA75AB60083555E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QSV6NR5J4B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Deltafour® EHS One";
-				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera to upload after observation images.";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app uses the camera to upload after observation images.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = co.deltafour.ehsone;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Deltafour.Lloyds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18303CDD2EFACE4900618D91 /* Build configuration list for PBXProject "Lloyds" */ = {
+		185A470C2FA75AB40083555E /* Build configuration list for PBXProject "Lloyds" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18303CEB2EFACE4B00618D91 /* Debug */,
-				18303CEC2EFACE4B00618D91 /* Release */,
+				185A471A2FA75AB60083555E /* Debug */,
+				185A471B2FA75AB60083555E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18303CED2EFACE4B00618D91 /* Build configuration list for PBXNativeTarget "Lloyds" */ = {
+		185A471C2FA75AB60083555E /* Build configuration list for PBXNativeTarget "Lloyds" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18303CEE2EFACE4B00618D91 /* Debug */,
-				18303CEF2EFACE4B00618D91 /* Release */,
+				185A471D2FA75AB60083555E /* Debug */,
+				185A471E2FA75AB60083555E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		1825FE9D2F56E3B90020F16A /* XCRemoteSwiftPackageReference "Wormholy" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/pmusolino/Wormholy";
-			requirement = {
-				kind = exactVersion;
-				version = 2.3.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		1825FE9E2F56E3B90020F16A /* Wormholy */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 1825FE9D2F56E3B90020F16A /* XCRemoteSwiftPackageReference "Wormholy" */;
-			productName = Wormholy;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 18303CDA2EFACE4900618D91 /* Project object */;
+	rootObject = 185A47092FA75AB40083555E /* Project object */;
 }
